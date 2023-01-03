@@ -1,0 +1,1 @@
+Store images like .svg, .jpg, .png

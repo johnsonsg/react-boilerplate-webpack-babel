@@ -1,0 +1,1 @@
+Contains components made up of other components in your project. They usually include side effects and have specific use cases. For example, a component containing a of product reviews, user authentication details..etc.
