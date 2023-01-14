@@ -7,13 +7,15 @@ module.exports = {
       path: path.join(__dirname, '/dist'),
       filename: 'bundle.js'
    },
+   mode: 'development',
    devServer: {
+      static: path.resolve(__dirname, "./src"),
       port: 8080
    },
    module: {
       rules: [
          {
-            test: /\.jsx?$/,
+            test: /\.(jsx|js)$/,
             exclude: /node_modules/,
             loader: 'babel-loader',
          },
